@@ -12,7 +12,7 @@ public class numeroMenor {
 
         if (B<menor) {
         menor = B;}
-5
+
         if (C<menor) {
             menor = C;}
 
