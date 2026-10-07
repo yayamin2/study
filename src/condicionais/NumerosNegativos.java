@@ -1,6 +1,8 @@
+package condicionais;
+
 import java.util.Scanner;
 
-public class numeroNegativo {
+public class NumerosNegativos {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

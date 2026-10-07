@@ -1,6 +1,8 @@
+package basico;
+
 import java.util.Scanner;
 
-public class geometria {
+public class AreasGeometricas {
     static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

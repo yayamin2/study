@@ -1,7 +1,9 @@
+package condicionais;
+
 import java.util.Locale;
 import java.util.Scanner;
 
-public class coordenadas {
+public class Quadrante {
     static void main(String[] args) {
 
             Locale.setDefault(Locale.US);

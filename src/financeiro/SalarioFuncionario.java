@@ -1,13 +1,15 @@
+package financeiro;
+
 import java.util.Locale;
 import java.util.Scanner;
 
-public class funcionario {
+public class SalarioFuncionario {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         Locale.setDefault(Locale.US);
 
-        System.out.println("Digite o número do funcionario: ");
+        System.out.println("Digite o número do financeiro.funcionario: ");
         int numeroFuncionario = sc.nextInt();
 
         System.out.println("Digite quantidade de horas trabalhadas: ");

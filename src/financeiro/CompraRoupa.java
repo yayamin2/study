@@ -1,6 +1,8 @@
+package financeiro;
+
 import java.util.Scanner;
 
-public class roupa {
+public class CompraRoupa {
     static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

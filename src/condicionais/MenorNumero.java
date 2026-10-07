@@ -1,6 +1,8 @@
+package condicionais;
+
 import java.util.Scanner;
 
-public class numeroMenor {
+public class MenorNumero {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

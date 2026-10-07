@@ -1,6 +1,8 @@
+package basico;
+
 import java.util.Scanner;
 
-public class area {
+public class AreaCirculo {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
 
@@ -12,7 +14,7 @@ public class area {
 
         double area = pi * raio * raio;
 
-        System.out.printf("area: %.4f", area);
+        System.out.printf("basico.area: %.4f", area);
 
 
     }
