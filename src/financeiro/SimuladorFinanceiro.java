@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Simulador de investimento : juros compostos mês a mês, com aporte mensal, comparação com juros simples e imposto de renda
 
-public class CalculadoraJurosCompostos {
+public class SimuladorFinanceiro {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
