@@ -19,6 +19,9 @@ public class CalculadoraJurosCompostos {
 
         System.out.print("Digite por quanto tempo (em meses) você quer deixar o dinheiro investido: ");
         tempo = sc.nextInt();
+        while (tempo<=0){
+            System.out.print("Tempo inválido digite um número maior que zero");
+        tempo = sc.nextInt();}
 
         System.out.print ("Qual será o valor do aporte mensal? ");
         aporte = sc.nextDouble();
