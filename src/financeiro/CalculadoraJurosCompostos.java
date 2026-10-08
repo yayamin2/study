@@ -20,8 +20,11 @@ public class CalculadoraJurosCompostos {
         System.out.print("Digite a taxa de juros do seu banco: ");
         juros = sc.nextDouble();
 
-        double valorFinal = valor * Math.pow(1+ juros / 100, tempo);
-
-        System.out.printf ("O valor final será: %.2f%n", valorFinal);
+        double saldo = valor;
+        for (int i = 1; i <= tempo; i++) {
+            double aumento = saldo * (juros / 100);
+            saldo = saldo + aumento;
+            System.out.printf("Mês %d: R$ %.2f%n", i, saldo);
+        }
     }
 }
