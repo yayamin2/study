@@ -2,7 +2,7 @@ package financeiro;
 
 import java.util.Scanner;
 
-// Simulador de juros: mostra o saldo mês a mês de um investimento
+// Simulador de investimento : juros composto mês a mês, com aporte mensal, validação de tempoe comparação com juros simples
 
 public class CalculadoraJurosCompostos {
     static void main(String[] args) {
@@ -39,6 +39,10 @@ public class CalculadoraJurosCompostos {
         double valorInserido = aporte * tempo +valor;
         double rendimento = saldo - valorInserido;
         System.out.printf("Total de juros ganhos: R$ %.2f%n", rendimento);
+
+        double jurosSimples = valor * juros * tempo /100;
+        double totalSimples = jurosSimples + valor;
+        System.out.printf("Total de juros simples: R$ %.2f%n", totalSimples);
 
     }
 }
