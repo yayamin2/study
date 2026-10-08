@@ -5,6 +5,13 @@ import java.util.Scanner;
 // Simulador de investimento : juros compostos mês a mês, com aporte mensal, comparação com juros simples e imposto de renda
 
 public class SimuladorFinanceiro {
+
+    public static final String RESET = "\u001B[0m";
+    public static final String VERDE = "\u001B[32m";
+    public static final String VERMELHO = "\u001B[31m";
+    public static final String AMARELO = "\u001B[33m";
+    public static final String CIANO = "\u001B[36m";
+
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -21,7 +28,7 @@ public class SimuladorFinanceiro {
         System.out.print("Digite por quanto tempo (em meses) você quer deixar o dinheiro investido: ");
         tempo = sc.nextInt();
         while (tempo<=0){
-            System.out.print("Tempo inválido digite um número maior que zero");
+            System.out.print(VERMELHO + "Tempo inválido, digite um número maior que zero: " + RESET);
         tempo = sc.nextInt();}
 
         System.out.print ("Qual será o valor do aporte mensal? ");
@@ -30,6 +37,7 @@ public class SimuladorFinanceiro {
         System.out.print("Digite a taxa de juros do seu banco: ");
         juros = sc.nextDouble();
 
+        System.out.println("\n" + CIANO + "=== EVOLUÇÃO MÊS A MÊS ===" + RESET);
         double saldo = valor;
         for (int i = 1; i <= tempo; i++) {
             saldo = saldo + aporte;
@@ -39,7 +47,7 @@ public class SimuladorFinanceiro {
         }
         double valorInserido = aporte * tempo +valor;
         double rendimento = saldo - valorInserido;
-        System.out.printf("Total de juros ganhos: R$ %.2f%n", rendimento);
+        System.out.printf(VERDE + "Total de juros ganhos: R$ %.2f%n" + RESET, rendimento);
 
         int dias = tempo * 30;
         double aliquota = 0;
@@ -60,6 +68,8 @@ public class SimuladorFinanceiro {
         double diferenca = rendimento - jurosSimples;
 
         while (opcao != 0) {
+
+            System.out.println("\n" + CIANO + "--- MENU DE OPÇÕES ---" + RESET);
             System.out.println("1 - Ver juros compostos");
             System.out.println("2 - Ver juros simples e a diferença");
             System.out.println("3 - Ver imposto de renda");
@@ -70,22 +80,22 @@ public class SimuladorFinanceiro {
             switch (opcao) {
                 case 1:
                     System.out.printf("Total investido: R$ %.2f%n", valorInserido);
-                    System.out.printf("Saldo final: R$ %.2f%n", saldo);
-                    System.out.printf("Total de juros ganhos: R$ %.2f%n", rendimento);
+                    System.out.printf(VERDE + "Saldo final: R$ %.2f%n" + RESET, saldo);
+                    System.out.printf(VERDE + "Total de juros ganhos: R$ %.2f%n" + RESET, rendimento);
                     break;
                 case 2:
                     System.out.printf("Total no juros simples: R$ %.2f%n", totalSimples);
-                    System.out.printf("Diferença (juros sobre juros): R$ %.2f%n", diferenca);
+                    System.out.printf(AMARELO + "Diferença (juros sobre juros): R$ %.2f%n" + RESET, diferenca);
                     break;
                 case 3:
-                    System.out.printf("Imposto de Renda: R$ %.2f%n", imposto);
-                    System.out.printf("Valor líquido no resgate: R$ %.2f%n", resgate);
+                    System.out.printf(VERMELHO + "Imposto de Renda: R$ %.2f%n" + RESET, imposto);
+                    System.out.printf(VERDE + "Valor líquido no resgate: R$ %.2f%n" + RESET, resgate);
                     break;
                 case 0:
-                    System.out.println("Até logo!");
+                    System.out.println(AMARELO + "Até logo!" + RESET);
                     break;
                 default:
-                    System.out.println("Opção inválida.");
+                    System.out.println(VERMELHO + "Opção inválida." + RESET);
             }
 
             }
