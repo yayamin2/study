@@ -65,6 +65,7 @@ study/
 - `SalarioFuncionario`: calcula o salário com base nas horas trabalhadas
 - `Imposto`: calcula o desconto de imposto sobre o salário
 - `CompraRoupas`: calcula o valor final da compra
+- `SimuladorFinanceiro`: simulador de investimento com aporte, juros simples X composto e imposto de renda 
 
 ## 🚀 Próximos passos
 
