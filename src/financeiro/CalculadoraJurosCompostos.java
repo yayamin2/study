@@ -2,7 +2,7 @@ package financeiro;
 
 import java.util.Scanner;
 
-// Simulador de investimento : juros composto mês a mês, com aporte mensal, validação de tempoe comparação com juros simples
+// Simulador de investimento : juros composto mês a mês, com aporte mensal, validação de tempoe comparação com juros simples e imposto de renda
 
 public class CalculadoraJurosCompostos {
     static void main(String[] args) {
@@ -40,6 +40,22 @@ public class CalculadoraJurosCompostos {
         double rendimento = saldo - valorInserido;
         System.out.printf("Total de juros ganhos: R$ %.2f%n", rendimento);
 
+        int dias = tempo * 30;
+        double aliquota = 0;
+        if (dias <= 180) {
+            aliquota = 0.225;
+        } else if (dias <= 360) {
+            aliquota = 0.20;
+        } else if (dias <= 720) {
+            aliquota = 0.175;
+        } else {
+            aliquota = 0.15;
+        }
+
+        double imposto = rendimento *aliquota;
+        double resgate = saldo - imposto;
+        System.out.printf ("Imposto de renda: R$ %.2f%n", imposto);
+        System.out.printf("Valor liquido no resgate: R$ %.2f%n", resgate);
         double jurosSimples = valor * juros * tempo /100;
         double totalSimples = jurosSimples + valor;
         System.out.printf("Total de juros simples: R$ %.2f%n", totalSimples);
