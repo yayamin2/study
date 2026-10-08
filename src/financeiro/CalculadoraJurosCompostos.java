@@ -33,5 +33,9 @@ public class CalculadoraJurosCompostos {
             saldo = saldo + aumento;
             System.out.printf("Mês %d: R$ %.2f%n", i, saldo);
         }
+        double valorInserido = aporte * tempo +valor;
+        double rendimento = saldo - valorInserido;
+        System.out.printf("Total de juros ganhos: R$ %.2f%n", rendimento);
+
     }
 }
