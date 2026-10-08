@@ -2,7 +2,7 @@ package financeiro;
 
 import java.util.Scanner;
 
-// Simulador de investimento : juros composto mês a mês, com aporte mensal, validação de tempoe comparação com juros simples e imposto de renda
+// Simulador de investimento : juros compostos mês a mês, com aporte mensal, comparação com juros simples e imposto de renda
 
 public class CalculadoraJurosCompostos {
     static void main(String[] args) {
@@ -12,6 +12,7 @@ public class CalculadoraJurosCompostos {
         double juros=0;
         int tempo;
         double aporte=0;
+        int opcao = 1;
 
         System.out.print("Digite o valor que você quer investir: ");
         valor = sc.nextDouble();
@@ -54,11 +55,41 @@ public class CalculadoraJurosCompostos {
 
         double imposto = rendimento *aliquota;
         double resgate = saldo - imposto;
-        System.out.printf ("Imposto de renda: R$ %.2f%n", imposto);
-        System.out.printf("Valor liquido no resgate: R$ %.2f%n", resgate);
         double jurosSimples = valor * juros * tempo /100;
         double totalSimples = jurosSimples + valor;
-        System.out.printf("Total de juros simples: R$ %.2f%n", totalSimples);
+        double diferenca = rendimento - jurosSimples;
+
+        while (opcao != 0) {
+            System.out.println("1 - Ver juros compostos");
+            System.out.println("2 - Ver juros simples e a diferença");
+            System.out.println("3 - Ver imposto de renda");
+            System.out.println("0 - Sair");
+            System.out.print("Escolha: ");
+            opcao = sc.nextInt();
+
+            switch (opcao) {
+                case 1:
+                    System.out.printf("Total investido: R$ %.2f%n", valorInserido);
+                    System.out.printf("Saldo final: R$ %.2f%n", saldo);
+                    System.out.printf("Total de juros ganhos: R$ %.2f%n", rendimento);
+                    break;
+                case 2:
+                    System.out.printf("Total no juros simples: R$ %.2f%n", totalSimples);
+                    System.out.printf("Diferença (juros sobre juros): R$ %.2f%n", diferenca);
+                    break;
+                case 3:
+                    System.out.printf("Imposto de Renda: R$ %.2f%n", imposto);
+                    System.out.printf("Valor líquido no resgate: R$ %.2f%n", resgate);
+                    break;
+                case 0:
+                    System.out.println("Até logo!");
+                    break;
+                default:
+                    System.out.println("Opção inválida.");
+            }
+
+            }
+        }
+
 
     }
-}
