@@ -25,8 +25,22 @@ study/
 │   ├── arrays/
 │   ├── poo/
 │   └── projetos/
+│       └── simulador/                 # 📈 Projeto 01: Simulador Financeiro de Renda Fixa
 └── .gitignore
 ```
+
+## 🚀 Projetos em Destaque
+
+### 📈 [Simulador Financeiro de Renda Fixa](./src/projetos/simulador/)
+Aplicação interativa de console desenvolvida em Java voltada para o mercado de Renda Fixa:
+- **Evolução mês a mês:** Cálculo de juros compostos considerando capital inicial e aportes mensais recorrentes.
+- **Comparativo real:** Demonstração prática do poder dos juros compostos vs. juros simples.
+- **Tributação automática:** Dedução do Imposto de Renda (IR) pela tabela regressiva oficial da Receita Federal (22,5% a 15%).
+- **Menu interativo colorido:** Terminal interativo com cores ANSI para visualização limpa de saldo, rendimento acumulado e resgate líquido.
+
+👉 **[Ver documentação completa e código do Simulador](./src/projetos/simulador/)**
+
+---
 
 ## 🧠 O que estou estudando
 
@@ -65,7 +79,7 @@ study/
 - `SalarioFuncionario`: calcula o salário com base nas horas trabalhadas
 - `Imposto`: calcula o desconto de imposto sobre o salário
 - `CompraRoupas`: calcula o valor final da compra
-- `SimuladorFinanceiro`: simulador de investimento com aporte, juros simples X composto e imposto de renda 
+- `SimuladorFinanceiro`: *(Promovido a projeto)* 👉 acesse a pasta dedicada em [`src/projetos/simulador/`](./src/projetos/simulador/)
 
 ## 🚀 Próximos passos
 
