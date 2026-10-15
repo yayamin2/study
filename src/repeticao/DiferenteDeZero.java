@@ -1,4 +1,4 @@
-package condicionais;
+package repeticao;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package condicionais;
+package arrays;
 
 public class MaiorNota {
     static void main(String[] args) {

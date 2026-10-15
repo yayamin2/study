@@ -1,4 +1,4 @@
-package condicionais;
+package repeticao;
 
 public class Contagem {
     static void main(String[] args) {

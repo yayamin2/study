@@ -1,4 +1,4 @@
-package condicionais;
+package arrays;
 
 public class Notas {
     static void main() {

@@ -1,8 +1,8 @@
-package condicionais;
+package repeticao;
 
 import java.util.Scanner;
 
-public class senha {
+public class Senha {
     static void main() {
         Scanner sc = new Scanner(System.in);
 

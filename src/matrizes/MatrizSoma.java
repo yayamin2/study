@@ -1,4 +1,4 @@
-package condicionais;
+package matrizes;
 
 public class MatrizSoma {
     static void main() {

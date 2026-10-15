@@ -58,7 +58,7 @@ Aplicação interativa de console desenvolvida em Java voltada para o mercado de
 ### Básico
 - `AreaCirculo`: calcula a área de um círculo a partir do raio
 - `AreasGeometricas`: calcula a área de triângulo, círculo, trapézio, quadrado e retângulo
-- `Soma`: soma dois números digitados pelo usuário
+- `SomaDoisNumeros`: soma dois números digitados pelo usuário
 - `DiferencaProdutos`: calcula `A * B - C * D`
 
 ### Condicionais

@@ -2,7 +2,7 @@ package basico;
 
 import java.util.Scanner;
 
-public class Soma {
+public class SomaDoisNumeros {
     static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
