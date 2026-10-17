@@ -1,0 +1,39 @@
+package revisao;
+
+import java.util.Scanner;
+
+public class Matriz3x3 {
+    static void main(String[] args) {
+
+        // 1. Declara e inicializa a matriz 3x3 com alguns valores de exemplo
+        int[][] matriz = {
+                {4, 12, 7},
+                {9, 25, 3},
+                {1, 15, 8}
+        };
+
+        // 2. Imprime a matriz em formato de tabela
+        System.out.println("Matriz 3x3");
+        for (
+                int i = 0;
+                i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                System.out.print(matriz[i][j] + " ");
+            }
+            System.out.println();
+        }
+        int maior = matriz[0][0]; // Assume que o primeiro elemento é o maior inicialmente
+        for (
+                int i = 0;
+                i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (matriz[i][j] > maior) {
+                    maior = matriz[i][j];
+                }
+            }
+        }
+
+        System.out.println("O maior valor encontrado na matriz é: " + maior);
+    }
+
+}
