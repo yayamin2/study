@@ -2,6 +2,11 @@ package condicionais;
 
 import java.util.Scanner;
 
+/*
+ * Exercício: Dia da Semana
+ * Objetivo: Converter um número de 1 a 7 no nome do dia da semana correspondente.
+ * Conceitos: switch-case, break, default.
+ */
 public class DiaDaSemana {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,6 +15,11 @@ public class DiaDaSemana {
         System.out.println("Digite um numero de 1 a 7: ");
         dia = sc.nextInt();
 
+        /*
+         * switch-case é uma estrutura de seleção múltipla
+         * Verifica o valor da variável 'dia' e executa o case correspondente
+         * break é necessário para sair do switch após executar um case
+         */
         switch (dia) {
             case 1:
                 System.out.println("Segunda");
@@ -39,9 +49,11 @@ public class DiaDaSemana {
                 System.out.println("Domingo");
                 break;
 
+            // default é executado quando nenhum case corresponde
             default:
                 System.out.println("Dia inválido!");
 
         }
+        sc.close();
     }
 }
