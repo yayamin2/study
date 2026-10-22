@@ -30,4 +30,5 @@ public class SomaDeNumeros {
         }
         System.out.println(soma);
         sc.close();
+    }
 }
