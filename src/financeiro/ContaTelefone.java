@@ -4,10 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 /*
- * Exercício: Conta de Telefone
- * Objetivo: Calcular o valor da conta de telefone.
  * Regra: R$50.00 fixo + R$2.00 por minuto excedente (acima de 100 minutos).
- * Conceitos: if-else, operador de atribuição composta (+=).
  */
 public class ContaTelefone {
     static void main(String[] args) {

@@ -2,11 +2,6 @@ package repeticao;
 
 import java.util.Scanner;
 
-/*
- * Exercício: Tabuada Regressiva
- * Objetivo: Imprimir a tabuada de um número de forma regressiva (de 10 até 1).
- * Conceitos: for loop com decremento, multiplicação.
- */
 public class TabuadaRegressiva {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

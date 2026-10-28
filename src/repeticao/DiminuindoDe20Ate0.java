@@ -3,9 +3,7 @@ package repeticao;
 import java.util.Scanner;
 
 /*
- * Exercício: Diminuindo de 20 até 0
  * Objetivo: Imprimir números de 20 até 0, decrementando de 5 em 5.
- * Conceitos: for loop com decremento.
  */
 public class DiminuindoDe20Ate0 {
     static void main(String[] args) {

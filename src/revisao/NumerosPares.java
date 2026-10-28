@@ -2,18 +2,12 @@ package revisao;
 
 import java.util.Scanner;
 
-/*
- * Exercício: Contagem de Números Pares
- * Objetivo: Contar quantos números pares existem em um array de 8 elementos.
- * Conceitos: arrays, for loop, operador módulo (%), contador.
- */
 public class NumerosPares {
     static void main(String[] args) {
 
         // Cria um array de int com 8 posições
         int[] numero = new int[8];
         int par = 0;  // Contador para números pares
-        int soma = 0;  // Variável não utilizada neste exercício
 
         // Atribui valores a cada posição do array
         numero[0] = 8;

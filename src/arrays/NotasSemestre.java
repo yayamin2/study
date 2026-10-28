@@ -2,12 +2,6 @@ package arrays;
 
 import java.util.Scanner;
 
-/*
- * Exercício: Notas do Semestre
- * Objetivo: Calcular a nota final somando as notas de dois semestres.
- * Se a nota final for menor que 60, o aluno é reprovado.
- * Conceitos: Scanner, entrada de dados, if-else, formatação de saída.
- */
 public class NotasSemestre {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

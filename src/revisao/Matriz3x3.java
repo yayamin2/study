@@ -3,9 +3,7 @@ package revisao;
 import java.util.Scanner;
 
 /*
- * Exercício: Matriz 3x3
  * Objetivo: Criar uma matriz 3x3, imprimi-la e encontrar o maior valor.
- * Conceitos: matrizes, for loops aninhados, matriz.length.
  */
 public class Matriz3x3 {
     static void main(String[] args) {
@@ -29,10 +27,10 @@ public class Matriz3x3 {
             }
             System.out.println();
         }
-        
+
         // Assume que o primeiro elemento é o maior inicialmente
         int maior = matriz[0][0];
-        
+
         /*
          * Percorre toda a matriz para encontrar o maior valor
          */

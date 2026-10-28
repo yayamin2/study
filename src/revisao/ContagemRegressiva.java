@@ -1,10 +1,5 @@
 package revisao;
 
-/*
- * Exercício: Contagem Regressiva
- * Objetivo: Imprimir uma contagem regressiva de 10 até 1.
- * Conceitos: for loop com decremento.
- */
 public class ContagemRegressiva {
     static void main(String[] args) {
 

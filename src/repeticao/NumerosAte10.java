@@ -2,11 +2,6 @@ package repeticao;
 
 import java.util.Scanner;
 
-/*
- * Exercício: Números até 10
- * Objetivo: Imprimir os números de 1 até 10.
- * Conceitos: for loop.
- */
 public class NumerosAte10 {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

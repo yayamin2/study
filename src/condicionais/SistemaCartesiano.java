@@ -27,12 +27,12 @@ public class SistemaCartesiano {
             }
 
             // Q3: x negativo e y negativo
-            else if (x < 0 && y < 0){
+            else if (x < 0 && y < 0) {
                 System.out.println("Q3");
             }
 
             // Q2: x negativo e y positivo
-            else if (x < 0 && y > 0){
+            else if (x < 0 && y > 0) {
                 System.out.println("Q2");
             }
 

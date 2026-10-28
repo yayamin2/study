@@ -4,14 +4,10 @@ import java.util.Locale;
 import java.util.Scanner;
 
 /*
- * Exercício: Cálculo de Impostos
- * Objetivo: Calcular o imposto de renda baseado no salário.
- * Faixas:
  *   - Até R$2000.00: Isento
  *   - R$2000.01 a R$3000.00: 8% sobre o valor que excede R$2000.00
  *   - R$3000.01 a R$4500.00: 8% sobre R$1000.00 + 18% sobre o valor que excede R$3000.00
  *   - Acima de R$4500.00: 8% sobre R$1000.00 + 18% sobre R$1500.00 + 28% sobre o valor que excede R$4500.00
- * Conceitos: if-else encadeados, cálculo progressivo de impostos.
  */
 public class Impostos {
     static void main(String[] args) {

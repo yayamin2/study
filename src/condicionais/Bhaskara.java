@@ -32,19 +32,17 @@ public class Bhaskara {
          */
         if (A == 0 || delta < 0.0) {
             System.out.println("Impossivel calcular");
-        }
-            else{
-                // Cálculo das duas raízes usando a fórmula de Bhaskara
-                // Math.sqrt() calcula a raiz quadrada
-                double r1 = (-B + Math.sqrt(delta)) / (2 * A);
-                double r2 = (-B - Math.sqrt(delta)) / (2 * A);
+        } else {
+            // Cálculo das duas raízes usando a fórmula de Bhaskara
+            // Math.sqrt() calcula a raiz quadrada
+            double r1 = (-B + Math.sqrt(delta)) / (2 * A);
+            double r2 = (-B - Math.sqrt(delta)) / (2 * A);
 
-            // Exibe as raízes com 5 casas decimais
             System.out.printf("r1 = %.5f ", r1);
             System.out.printf("r2 =  %.5f = ", r2);
 
 
-            }
         }
     }
+}
 

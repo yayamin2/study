@@ -2,11 +2,6 @@ package repeticao;
 
 import java.util.Scanner;
 
-/*
- * Exercício: Senha
- * Objetivo: Ler uma senha até que o usuário digite a senha correta (2002).
- * Conceitos: while, validação de entrada.
- */
 public class Senha {
     static void main() {
         Scanner sc = new Scanner(System.in);

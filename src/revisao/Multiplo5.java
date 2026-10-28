@@ -2,11 +2,6 @@ package revisao;
 
 import java.util.Scanner;
 
-/*
- * Exercício: Múltiplos de 5
- * Objetivo: Imprimir todos os múltiplos de 5 de 1 até 50.
- * Conceitos: for loop, operador módulo (%), if.
- */
 public class Multiplo5 {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

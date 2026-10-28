@@ -3,10 +3,7 @@ package revisao;
 import java.util.Scanner;
 
 /*
- * Exercício: Classificação por Idade
- * Objetivo: Classificar uma pessoa em faixa etária baseado na idade.
  * Faixas: <12 (Criança), 12-17 (Adolescente), >=18 (Adulto)
- * Conceitos: if-else encadeados, operadores relacionais.
  */
 public class Idade {
     static void main(String[] args) {

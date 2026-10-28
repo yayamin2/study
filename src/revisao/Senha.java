@@ -2,11 +2,6 @@ package revisao;
 
 import java.util.Scanner;
 
-/*
- * Exercício: Senha
- * Objetivo: Ler uma senha até que o usuário digite a senha correta (1234).
- * Conceitos: do-while, validação de entrada.
- */
 public class Senha {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -23,7 +18,7 @@ public class Senha {
             senha = sc.nextInt();
 
         } while (senha != 1234);
-        
+
         // Quando a senha correta é digitada, o loop encerra
         System.out.println("Acesso Permitido");
         sc.close();

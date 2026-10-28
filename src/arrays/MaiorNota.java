@@ -1,10 +1,5 @@
 package arrays;
 
-/*
- * Exercício: Maior Nota
- * Objetivo: Encontrar a maior nota em um array de notas.
- * Conceitos: arrays (vetores), for loop, comparação de valores.
- */
 public class MaiorNota {
     static void main(String[] args) {
 

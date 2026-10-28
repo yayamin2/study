@@ -1,10 +1,5 @@
 package arrays;
 
-/*
- * Exercício: Notas
- * Objetivo: Calcular a soma e a média de notas armazenadas em um array.
- * Conceitos: arrays, for loop, acumulador, cálculo de média.
- */
 public class Notas {
     static void main() {
 

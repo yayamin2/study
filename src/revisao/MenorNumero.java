@@ -1,10 +1,5 @@
 package revisao;
 
-/*
- * Exercício: Menor Número em Array
- * Objetivo: Encontrar o menor número em um array de 6 elementos.
- * Conceitos: arrays, for loop, comparação de valores.
- */
 public class MenorNumero {
     static void main(String[] args) {
 

@@ -2,12 +2,6 @@ package condicionais;
 
 import java.util.Scanner;
 
-/*
- * Exercício: Soma de Números de 1 até N
- * Objetivo: Calcular a soma de todos os números de 1 até um número N digitado pelo usuário.
- * Exemplo: Se N = 5, soma = 1 + 2 + 3 + 4 + 5 = 15
- * Conceitos: while, contador, acumulador.
- */
 public class SomaDeNumeros {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -2,11 +2,6 @@ package repeticao;
 
 import java.util.Scanner;
 
-/*
- * Exercício: Números Pares até 20
- * Objetivo: Imprimir os números pares de 2 até 20.
- * Conceitos: for loop com incremento personalizado.
- */
 public class NumerosParesAte20 {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
