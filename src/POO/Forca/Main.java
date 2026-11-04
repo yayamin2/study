@@ -33,6 +33,7 @@ public class Main {
 
         if (jogo.verificarVitoria() == true) {
             System.out.println("Parabêns, você venceu o jogo");
+            System.out.println("A palavra era: " + jogo.getPalavraSecreta());
         } else {
             System.out.println("Fim de jogo, você perdeu");
             System.out.println("A palavra era: " + jogo.getPalavraSecreta());
