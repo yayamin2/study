@@ -6,7 +6,7 @@ public class ConversorTemperatura {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite a temperatura em graus Celcius: ");
+        System.out.println("Digite a temperatura em graus Celsius: ");
         double c = sc.nextDouble();
         double f;
 
