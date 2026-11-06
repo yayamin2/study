@@ -14,7 +14,7 @@ public class Main {
         while (jogo.verificarVitoria() == false && jogo.verificarDerrota() == false) { /* Enquanto não perder ou ganhar
         o jogo continua */
             System.out.println("\nPalavra: " + jogo.getPalavraOculta());
-            System.out.println("Tentativas restante: " + jogo.getTentativas());
+            System.out.println("Tentativas restantes: " + jogo.getTentativas());
 
             System.out.print("Digite uma letra: ");
             String entrada = sc.nextLine();
