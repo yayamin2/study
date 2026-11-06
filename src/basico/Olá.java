@@ -2,7 +2,7 @@ package basico;
 
 import java.util.Scanner;
 
-public class OláAna {
+public class Olá {
     static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
 
