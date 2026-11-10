@@ -1,4 +1,4 @@
-package revisao;
+package condicionais;
 
 import java.util.Scanner;
 
