@@ -1,4 +1,4 @@
-package AulasRocketSeat.Fundamentos;
+package AulasRocketSeat.Fundamentos.PalavrasReservadas;
 
 public class PalavrasReservadas {
     static void main(String[] args) {

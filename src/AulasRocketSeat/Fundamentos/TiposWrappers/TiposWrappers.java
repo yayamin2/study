@@ -1,4 +1,4 @@
-package AulasRocketSeat.Fundamentos;
+package AulasRocketSeat.Fundamentos.TiposWrappers;
 
 public class TiposWrappers {
     static void main(String[] args) {

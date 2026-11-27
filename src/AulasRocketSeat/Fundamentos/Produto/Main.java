@@ -1,4 +1,4 @@
-package AulasRocketSeat.Produto;
+package AulasRocketSeat.Fundamentos.Produto;
 
 public class Main {
     static void main(String[] args) {

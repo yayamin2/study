@@ -1,4 +1,4 @@
-package AulasRocketSeat.Produto;
+package AulasRocketSeat.Fundamentos.Produto;
 
 public class Produto {
     String nome;
